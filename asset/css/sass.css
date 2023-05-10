@@ -12,7 +12,7 @@
     --main-color:#c20d5a;
     --second-color: rgb(7,3,45);
     ---main-gradient:linear-gradient(121deg, rgba(194, 13, 90,1)25%, rgb(255 0 194 / 42%) 100%);
-    --dark-bg:#383848;
+    --dark-bg:#88888d;
     --main-color-alt:#af547d;
     --text-color:#707070;
     --white-color:#ffffff;
@@ -90,8 +90,7 @@ h6,
 p,
 ul,
 li,
-span,
-label
+span,label
 {
     margin: 0;
 }
