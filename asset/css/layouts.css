@@ -76,30 +76,43 @@ img {
 .dropdown-menu {
     z-index: var(--z-fixed);
     max-width: 15rem;
-    right: -21px;
-    left: auto;
-    min-width: 11rem;
+    right: -21px !important;
+    left: auto !important;
+    min-width: 14rem;
     padding: 0;
     border-radius: 5px;
 }
+.dp-main-menu{
+    display: inline-grid;
+    width: 100%;
+    box-shadow: 0px 4px 15px 0px #ddd;
+    border-radius: 5px;
+    padding: 10px 0;
 
+}
 .dp-main-menu a {
     font-size: 13px;
     width: 100%;
+    color: var(--second-color);
     white-space: initial;
     line-height: 13px;
-    align-items: baseline;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
     padding: 10px;
-    background-color:var(--dark-bg);
+    /* background-color:var(--dark-bg); */
 }
+.message-item{
+    display: flex;
 
+}
 img.use-note {
     width: 35px;
     height: 35px;
     margin-right: 12;
     margin-right: 8px;
+
 }
-.cancel-icon {
+.cancel-icon, .user-role {
     color: red;
 }
 .note-info-desmis {
@@ -107,6 +120,9 @@ img.use-note {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+.user-notify-info{
+    line-height: 18px;
 }
 .status-link {
     display: flex;
@@ -117,4 +133,56 @@ img.use-note {
     border-radius: 50%;
     background: var(--main-gradient);
     color: var(--white-color);
+}
+.note-name{
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.note-time{
+    font-size: 10px;
+
+}
+.dp-main-menu a:last-child{
+    border-bottom: 0;
+}
+.user-message-info{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+/* Admin profile */
+.media{
+    background: var(--dark-bg);
+    text-align: center;
+    padding-top: 10px;
+
+}
+.media-body{
+    margin-top: 10px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.media-body h5{
+    font-weight: 700;
+    color: var(--white-color);
+}
+.media-body p{
+    font-size: 13px;
+    color: var(--white-color);
+    font-weight: 500;
+}
+.dropdown-item span{
+    padding-right: 7px;
+}
+/* language */
+.english-language{
+    color: var(--second-color);
+}
+.bangla-language{
+    color: var(--main-gradient);
+}
+.verticle-line{
+    border-left: 3px solid rgb(4, 59, 2);
+    padding: 2px;
 }
