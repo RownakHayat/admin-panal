@@ -11,7 +11,7 @@
     /* colors */
     --main-color:#c20d5a;
     --second-color: rgb(12, 4, 88);
-    ---main-gradient:linear-gradient(121deg, rgba(194, 13, 90,1)25%, rgb(255 0 194 / 42%) 100%);
+    ---main-gradient:linear-gradient(121deg, rgb(221, 17, 105)25%, rgba(255, 0, 195, 0.527) 100%);
     --dark-bg:#8c8c94;
     --main-color-alt:#af547d;
     --text-color:#707070;
