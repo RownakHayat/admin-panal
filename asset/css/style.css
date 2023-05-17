@@ -78,8 +78,8 @@
 
 }
 .earn-icon{
-    width: 30px;
-    height: 30px;
+    width: 38px;
+    height: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,27 +158,39 @@ header .calendar-icon span:last-child{
     flex-wrap: wrap;
 }
 .calendar ul li{
+    position: relative;
     width: calc(100% / 7);
 }
 .calendar .days li{
+    z-index: 1;
     cursor: pointer;
     margin-top: 30px;
 
+}
+.days li.inactive{
+    color: #aaa;
+}
+.days li.active{
+    color: #ffff;
 }
 .calendar .days li::before{
     position: absolute;
     content: "";
     height: 40px;
     width: 40px;
-    top: 50%;
+    top: 46%;
     left: 50%;
     z-index: -1;
-    transform: translate(-50%, -50%);
+    transform: translate(-110%, -46%);
+    border-radius: 50%;
    
 }
-.days li:hover{
-    background: var(--dark-bg);
-    border-radius: 50%;
+.days li:hover::before{
+    background: #e0dfdf;
+   
+}
+.days li.active::before{
+    background: var(--main-color-alt);
 }
 /* Calendar end */
 
