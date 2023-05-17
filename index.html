@@ -230,54 +230,56 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-8 col-12">
-                                <div class="bg-white top-chart-earn">
-                                    <div class="row">
-                                        <div class="col-lg-8 my-2 pe-0">
-                                            <div class="last-month">
-                                                <h5>Dashboard</h5>
-                                                <p>Overview of Latest Month</p>
-                                                <div class="earn">
-                                                    <h2>$56466</h2>
-                                                    <p>Current month sales</p>
+                                <div class="top-chart-earn">
+                                    <div class="final-ballance">
+                                        <div class="row">
+                                            <div class="col my-2 pe-0">
+                                                <div class="last-month">
+                                                    <h5>Dashboard</h5>
+                                                    <p>Overview of Latest Month</p>
+                                                    <div class="earn">
+                                                        <h2>$56466</h2>
+                                                        <p>Current month sales</p>
+                                                    </div>
+                                                    <div class="sale mb-3">
+                                                        <h2>88</h2>
+                                                        <p>Current Month sale</p>
+                                                    </div>
+                                                    <a href="#" class="di-btn purple-gradient">Last Month Summary</a>
                                                 </div>
-                                                <div class="sale mb-3">
-                                                    <h2>88</h2>
-                                                    <p>Current Month sale</p>
-                                                </div>
-                                                <a href="#" class="di-btn purple-gradient">Last Month Summary</a>
-                                            </div>
-                                            <div class="col-lg-8 my-2 ps-0">
-                                                <div class="classic-tabs">
-                                                    <!-- Nav tabs -->
-                                                    <div class="tabs-wrapper">
-                                                        <ul class="nav nav-pills chart-header-tab mb-3" id="pills-tab" role="tablist">
-                                                            <li class="nav-item">
-                                                              <a class="nav-link chart-nav active" id="pills-week-tab" data-bs-toggle="pill" data-bs-target="#pills-week" type="button" role="tab" aria-controls="pills-week" aria-selected="true" href="#">Week</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                              <a class="nav-link chart-nav" id="pills-month-tab" data-bs-toggle="pill" data-bs-target="#pills-month" type="button" role="tab" aria-controls="pills-month" aria-selected="false" href="#">Month</a>
-                                                            </li>
-                                                           <li class="nav-item">
-                                                              <a class="nav-link chart-nav" id="pills-year-tab" data-bs-toggle="pill" data-bs-target="#pills-year" type="button" role="tab" aria-controls="pills-year" aria-selected="false" href="#">Year</a>
-                                                            </li>
-                                                          </ul>
-                                                          <div class="tab-content" id="pills-tabContent">
-                                                            <div class="tab-pane fade show active" id="pills-week" role="tabpanel" aria-labelledby="pills-week-tab">
-                                                                <div class="widget">
-                                                                    <canvas id="myChart"></canvas>
+                                                <div class="col my-4 ps-0">
+                                                    <div class="classic-tabs">
+                                                        <!-- Nav tabs -->
+                                                        <div class="tabs-wrapper">
+                                                            <ul class="nav nav-pills chart-header-tab mb-3" id="pills-tab" role="tablist">
+                                                                <li class="nav-item">
+                                                                  <a class="nav-link chart-nav active" id="pills-week-tab" data-bs-toggle="pill" data-bs-target="#pills-week" type="button" role="tab" aria-controls="pills-week" aria-selected="true" href="#">Weekly</a>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                  <a class="nav-link chart-nav" id="pills-month-tab" data-bs-toggle="pill" data-bs-target="#pills-month" type="button" role="tab" aria-controls="pills-month" aria-selected="false" href="#">Monthly</a>
+                                                                </li>
+                                                               <li class="nav-item">
+                                                                  <a class="nav-link chart-nav" id="pills-year-tab" data-bs-toggle="pill" data-bs-target="#pills-year" type="button" role="tab" aria-controls="pills-year" aria-selected="false" href="#">Yearly</a>
+                                                                </li>
+                                                              </ul>
+                                                              <div class="tab-content" id="pills-tabContent">
+                                                                <div class="tab-pane fade show active" id="pills-week" role="tabpanel" aria-labelledby="pills-week-tab">
+                                                                    <div class="widget">
+                                                                        <canvas id="myChart"></canvas>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="tab-pane fade" id="pills-month" role="tabpanel" aria-labelledby="pills-month-tab">
-                                                                <div class="box">
-                                                                    <canvas id="monthly"></canvas>
+                                                                <div class="tab-pane fade" id="pills-month" role="tabpanel" aria-labelledby="pills-month-tab">
+                                                                    <div class="widget">
+                                                                        <canvas id="monthly"></canvas>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="tab-pane fade" id="pills-year" role="tabpanel" aria-labelledby="pills-year-tab">
-                                                                <div class="box">
-                                                                    <canvas id="yearly"></canvas>
+                                                                <div class="tab-pane fade" id="pills-year" role="tabpanel" aria-labelledby="pills-year-tab">
+                                                                    <div class="widget">
+                                                                        <canvas id="yearly"></canvas>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                          </div>
+                                                              </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

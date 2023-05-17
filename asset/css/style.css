@@ -7,19 +7,28 @@
 .content-wrapper.hide{
     margin-left: 0;
 }
-.top-chart-earn{
-    border-radius: 5px;
-    padding-top: 15px;
+.classic-tabs {
+    background: #ffff;
+    box-sizing: border-box;
     box-shadow: -2px 3px 13px 0px #ddd6;
+}
+.top-chart-earn{
+    padding-top: 15px;
     padding: 3%;
-    background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important;
     margin-left: 5%;
     
 }
 .last-month{
     line-height: 20px;
     text-align: center;
+    background: #d3abd340;
+    border-radius: 10px;
+    padding: 30px 0;
+    box-sizing: border-box;
+    box-shadow: -2px 3px 13px 0px #ddd6;
 }
+
+
 .last-month h5{
     font-size: 25px;
     font-weight: 600;
@@ -39,9 +48,10 @@
     font-size: 25px;
     font-weight: 600;
 }
+
 .chart-nav{
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     padding: 0px 15px;
     transition: .2s;
@@ -58,14 +68,18 @@
 }
 .chart-header-tab{
     width: 100%;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
-
+.widget {
+    width: 50%;
+}
 
 .wre-sec{
     overflow: hidden;
-
+    background: #ffff;
+    box-sizing: border-box;
+    box-shadow: -2px 3px 13px 0px #ddd6;
 }
 .bdr-cls{
     border-right: 1px solid #e6e3e3;
@@ -74,7 +88,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5% 10%;
 
 }
 .earn-icon{
@@ -84,7 +98,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 100%;
-    padding: 3px;
+    padding: 2%;
     background: #555454;
     line-height: 20px;
     font-size: 20px;
