@@ -49,7 +49,7 @@ prevNextIcon.forEach(icon =>{
         }
         else{
             date = new Date()
-        }cv 
+        }
 
 
         renderCalendar();

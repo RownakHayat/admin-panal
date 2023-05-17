@@ -84,4 +84,6 @@ var yearly = new Chart(yearly, {
     options: {
         responsive: true,
     }
+    
+    
 });

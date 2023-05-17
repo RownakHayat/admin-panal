@@ -3,15 +3,12 @@
     margin-left: 240px;
     margin-top: 65px;
     transition: .5s;
+    background: #fcfafa;
 }
 .content-wrapper.hide{
     margin-left: 0;
 }
-.classic-tabs {
-    background: #ffff;
-    box-sizing: border-box;
-    box-shadow: -2px 3px 13px 0px #ddd6;
-}
+
 .top-chart-earn{
     padding-top: 15px;
     padding: 3%;
@@ -48,6 +45,12 @@
     font-size: 25px;
     font-weight: 600;
 }
+.classic-tabs {
+    border-radius: 10px;
+    background: #ffff;
+    box-sizing: border-box;
+    box-shadow: -2px 3px 13px 0px #ddd6;
+}
 
 .chart-nav{
     color: black;
@@ -73,10 +76,12 @@
 }
 .widget {
     width: 50%;
+    margin-left: 25%;
 }
 
 .wre-sec{
     overflow: hidden;
+    border-radius: 10px;
     background: #ffff;
     box-sizing: border-box;
     box-shadow: -2px 3px 13px 0px #ddd6;
@@ -206,6 +211,16 @@ header .calendar-icon span:last-child{
 .days li.active::before{
     background: var(--main-color-alt);
 }
+/* revenue-one_hybrid start */
+.revenue{
+    padding-top: 5%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.revenue-one_hybrid{
+    background: var(---main-gradient);
+}
+/* revenue-one_hybrid end */
 /* Calendar end */
 
 @media (max-width:700px) {
